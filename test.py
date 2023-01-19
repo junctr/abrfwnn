@@ -702,6 +702,6 @@ print(zeta)
 print("n_data")
 print(len(t_data))
 
-np.save(f"p_s{n_seed}_m{alpha_lambda}_wn{alpha_wn0}_{alpha_wn1}_s{alpha_s0}_{alpha_s1}_{alpha_s2}_T{T}_step{step}_t{end}_param_all.npy",param_all)
+np.save(f"abrfwnn/data_test/p_s{n_seed}_m{alpha_lambda}_wn{alpha_wn0}_{alpha_wn1}_s{alpha_s0}_{alpha_s1}_{alpha_s2}_T{T}_step{step}_t{end}_param_all.npy",param_all)
 #np.save(f"k_s{n_seed}_m{alpha_lambda}_T{T}_t{end}_param_all_old.npy",param_all_old)
-np.savetxt(f"p_s{n_seed}_m{alpha_lambda}_wn{alpha_wn0}_{alpha_wn1}_s{alpha_s0}_{alpha_s1}_{alpha_s2}_T{T}_step{step}_t{end}_e_all.csv",e_all)
+np.savetxt(f"abrfwnn/data_test/p_s{n_seed}_m{alpha_lambda}_wn{alpha_wn0}_{alpha_wn1}_s{alpha_s0}_{alpha_s1}_{alpha_s2}_T{T}_step{step}_t{end}_e_all.csv",e_all)
