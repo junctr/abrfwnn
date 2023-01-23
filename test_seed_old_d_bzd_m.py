@@ -721,8 +721,8 @@ for n_seed in range(n_seed_start, n_seed_end + 1):
     print("n_data")
     print(len(t_data))
 
-    np.save(f"abrfwnn/data_test_old_d/p_bzd_s{n_seed}_m{alpha_lambda}_wn{alpha_wn0}_{alpha_wn1}_s{alpha_s0}_{alpha_s1}_{alpha_s2}_T{T}_step{step}_t{end}_param_all.npy",param_all)
+    np.save(f"data_test_old_d/c_bzd_s{n_seed}_m{alpha_lambda}_wn{alpha_wn0}_{alpha_wn1}_s{alpha_s0}_{alpha_s1}_{alpha_s2}_T{T}_step{step}_t{end}_param_all.npy",param_all)
     #np.save(f"k_s{n_seed}_m{alpha_lambda}_T{T}_t{end}_param_all_old.npy",param_all_old)
-    np.savetxt(f"abrfwnn/data_test_old_d/p_bzd_s{n_seed}_m{alpha_lambda}_wn{alpha_wn0}_{alpha_wn1}_s{alpha_s0}_{alpha_s1}_{alpha_s2}_T{T}_step{step}_t{end}_e_all.csv",e_all)
+    np.savetxt(f"data_test_old_d/c_bzd_s{n_seed}_m{alpha_lambda}_wn{alpha_wn0}_{alpha_wn1}_s{alpha_s0}_{alpha_s1}_{alpha_s2}_T{T}_step{step}_t{end}_e_all.csv",e_all)
 
     print(f"END n_seed={n_seed}")
